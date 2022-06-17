@@ -1,0 +1,13 @@
+.*.txt
+.*.h5
+.*.pk
+IGBD_API.txt
+RAWG_API.txt
+Steam_API.txt
+code/1idprocessed_on_20220528.txt
+code/idprocessed_on_20220528.txt
+code/data/
+code/data1/
+code/twitter data/
+final_model/
+code/embedding/

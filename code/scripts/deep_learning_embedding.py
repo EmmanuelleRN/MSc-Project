@@ -110,6 +110,8 @@ history = model.fit(X_train_tokenized, y_train, epochs=num_epochs, validation_da
 loss, accuracy = model.evaluate(X_test_tokenized,y_test)
 print('Test accuracy :', accuracy)
 # Test accuracy : 0.8708462715148926
+model.save('../final_model/GLOVE Embedding/model')
+model.save_weights('../final_model/GLOVE Embedding/_weights')
 
 # next step:
 # all steps with twitter data 

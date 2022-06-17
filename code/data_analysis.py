@@ -224,7 +224,6 @@ final_metrics_df = pd.DataFrame(final_metrics)
 final_metrics_df.sort_values(by='Test Accuracy', ascending=False)
 
 #Save Model
-#Even though I will also be creating a neural network model, I still want to save this best logistic regression model. I can try to use it as a backup in case the neural network model is too big to upload to heroku.
 
 import pandas as pd
 from sklearn.linear_model import LogisticRegression

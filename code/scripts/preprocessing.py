@@ -11,9 +11,9 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
 from re import sub, search
 from string import punctuation
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('stopwords')
+#nltk.download('punkt')
+#nltk.download('wordnet')
+#nltk.download('stopwords')
 
 punctuation_list = list(punctuation) + ['`', '’', '…', '\n']
     
